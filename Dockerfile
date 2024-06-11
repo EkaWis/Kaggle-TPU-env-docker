@@ -7,7 +7,7 @@ RUN apt-get update && apt-get install -y git
 
 COPY requirements.txt /app/
 RUN uname -m
-RUN pip install --no-deps -r requirements.txt --platform linux/$(uname -m)
+RUN pip install -r requirements.txt
 
 COPY . /app
 
