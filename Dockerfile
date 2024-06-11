@@ -1,4 +1,4 @@
-FROM python:3.11-slim  # 或更高版本
+FROM python:3.11-slim 
 
 WORKDIR /app
 
